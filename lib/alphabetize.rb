@@ -1,8 +1,8 @@
 def alphabetize(arr)
   alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |el|
-    el.split("").map do |character|
-      alphabet.index(character)
+    el.split("").map do |x|
+      alphabet.index(x)
     end
   end
 end
